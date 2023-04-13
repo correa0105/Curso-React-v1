@@ -1,0 +1,32 @@
+.tasks {
+    margin-top: 1rem;
+}
+
+.tasks li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6rem;
+    transition: all 0.7s;
+}
+
+.tasks li:hover {
+    background-color:rgb(207, 207, 207);
+    cursor: pointer;
+}
+
+.menuItem {
+    display: flex;
+    gap: 1rem;
+}
+
+.menuItem svg {
+    color: var(--cor1);
+    width: 1.5rem;
+    height: auto;
+    cursor: pointer;
+}
+
+.menuItem svg:nth-child(even) {
+    color: rgb(253, 116, 116);
+}
